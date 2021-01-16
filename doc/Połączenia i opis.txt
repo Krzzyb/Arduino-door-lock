@@ -1,0 +1,28 @@
+Project door lock
+--------------------------------------------------------------
+
+Elements:
+
+Numerical keypad 3*4 --- pins: 
+	P1 P2 P3 P4 P5 P6 P7
+digital --	9   8   7    6   5   4   3
+
+Lcd connected with I2C konverter:
+	Scl --- A5
+	Sda --- A4
+	Vcc --- 5V
+	Gnd --- Gnd
+
+PIR:
+	Vcc --- 5V
+	Out --- 10
+	Gnd --- Gnd
+
+Servo:
+	Control pin --- 2
+	Vcc --- 5V
+	Gnd --- Gnd
+
+Microswitch:
+	C (1) --- Gnd
+	No (2) --- 11
